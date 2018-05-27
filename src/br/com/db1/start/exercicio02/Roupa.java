@@ -16,4 +16,12 @@ public class Roupa {
 
 	private String anoFabricacao;
 
+	public String getAnoFabricacao() {
+		return anoFabricacao;
+	}
+
+	public void setAnoFabricacao(String anoFabricacao) {
+		this.anoFabricacao = anoFabricacao;
+	}
+	
 }

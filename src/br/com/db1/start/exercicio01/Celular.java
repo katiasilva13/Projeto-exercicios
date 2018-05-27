@@ -1,8 +1,7 @@
 package br.com.db1.start.exercicio01;
 
-import java.util.Scanner;
-import java.util.logging.Logger;
 
+			
 public class Celular {
 	
 	private String operadora;
@@ -13,8 +12,46 @@ public class Celular {
 
 	private Double tamanhoTela;
 
-	public Boolean temSinal() {
-		return true;
+	private Boolean temSinal;
+
+	public Double getTamanhoTela() {
+		return tamanhoTela;
+	}
+
+	public void setTamanhoTela(Double tamanhoTela) {
+		this.tamanhoTela = tamanhoTela;
+	}
+
+	public Boolean getDualChip() {
+		return dualChip;
+	}
+
+	public void setDualChip(Boolean dualChip) {
+		this.dualChip = dualChip;
+	}
+
+	public String getOperadora() {
+		return operadora;
+	}
+
+	public void setOperadora(String operadora) {
+		this.operadora = operadora;
+	}
+
+	public String getMarca() {
+		return marca;
+	}
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	public Boolean getTemSinal() {
+		return temSinal;
+	}
+
+	public void setTemSinal(Boolean temSinal) {
+		this.temSinal = temSinal;
 	}
 
 	
